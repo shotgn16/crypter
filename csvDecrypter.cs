@@ -47,6 +47,8 @@ namespace crypter
             var c1_Index = valueSet1.FirstOrDefault(headers);
             var c2_Index = valueSet2.FirstOrDefault(headers);
             var c3_Index = valueSet3.FirstOrDefault(headers);
+
+            //TODO - Write the resulting content back to the file.
         }
     }
 }
