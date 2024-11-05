@@ -13,12 +13,12 @@ namespace crypter
         {
             string[] returnValue = new string[6];
 
-            returnValue[0] = "lrHvB4SBhqEqJSgI4pbw"; //MyQ UserID
-            returnValue[1] = "joNYipgzSihArmsdxrjL"; //ParentPay UserID
-            returnValue[2] = "i73tNh514FMplj9cybSm"; //MyQ Access Token
-            returnValue[3] = "Gh7ZLvyi3mlV9SJxSXzX"; //ParentPay PaymentID
-            returnValue[4] = "n6TyARAdGOIsJ0S1Ge3M"; //newBalance
-            returnValue[5] = "jfiosru_fjsoruw3vva843"; //Database Password (for export)
+            returnValue[0] = "ENCRYPTION_STRING_1"; //MyQ UserID
+            returnValue[1] = "ENCRYPTION_STRING_2"; //ParentPay UserID
+            returnValue[2] = "ENCRYPTION_STRING_3"; //MyQ Access Token
+            returnValue[3] = "ENCRYPTION_STRING_4"; //ParentPay PaymentID
+            returnValue[4] = "ENCRYPTION_STRING_5"; //newBalance
+            returnValue[5] = "ENCRYPTION_STRING_6"; //Database Password (for export)
 
             return Task.FromResult(returnValue[KeyNum].ToCharArray()).Result;
         }
